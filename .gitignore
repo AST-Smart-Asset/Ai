@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# Data (large / private - not committed)
+data/*
+!data/.gitkeep
+
+# Trained model artifacts (regenerate via scripts/, don't commit binaries)
+models/*.pkl
+models/*.json
+!models/.gitkeep
+
+# Environment / IDE
+.env
+.vscode/
+.idea/
+
+# OS
+.DS_Store
